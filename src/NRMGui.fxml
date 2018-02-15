@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane minHeight="620.0" minWidth="820.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+   <children>
+      <SplitPane dividerPositions="0.756097561" layoutX="-4.0" layoutY="-2.0" prefHeight="160.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <StackPane layoutX="5.0" layoutY="29.0" prefHeight="600.0" prefWidth="600.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <VBox layoutX="34.0" layoutY="20.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Button layoutX="75.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="Up" AnchorPane.topAnchor="0.0" />
+                              <Button layoutX="24.0" layoutY="46.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="Left" />
+                              <Button layoutX="126.0" layoutY="47.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="Right" />
+                              <Button layoutX="75.0" layoutY="95.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="Down" AnchorPane.topAnchor="95.0" />
+                              <Button layoutX="5.0" layoutY="153.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" text="ZoomOut" />
+                              <Button layoutX="101.0" layoutY="153.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="80.0" text="ZoomIn" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
